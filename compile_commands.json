@@ -1,0 +1,34 @@
+[
+ {
+  "directory": "/home/jose/Documents/GithubProjects/phd-thesis/Courses/Math 439/Final-Project/code",
+  "arguments": [
+   "g++",
+   "-g",
+   "-c",
+   "-o",
+   "obj/main.o",
+   "-I./src",
+   "-I./include",
+   "-std=c++11",
+   "-Wall",
+   "src/main.cpp"
+  ],
+  "file": "src/main.cpp"
+ },
+ {
+  "directory": "/home/jose/Documents/GithubProjects/phd-thesis/Courses/Math 439/Final-Project/code",
+  "arguments": [
+   "g++",
+   "-g",
+   "-c",
+   "-o",
+   "obj/NValuation.o",
+   "-I./src",
+   "-I./include",
+   "-std=c++11",
+   "-Wall",
+   "src/NValuation.cpp"
+  ],
+  "file": "src/NValuation.cpp"
+ }
+]
