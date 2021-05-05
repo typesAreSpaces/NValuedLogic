@@ -17,11 +17,13 @@ int main(){
   z3::expr formula_2 = z3::implies(not(not(A)), A);
   z3::expr formula_3 = z3::implies(z3::implies(not(B), not(A)), z3::implies(A, B));
   z3::expr formula_4 = z3::implies(z3::implies(A, z3::implies(B, C)), z3::implies(z3::implies(A, B), z3::implies(A, C)));
+  z3::expr formula_5 = z3::implies(z3::implies(A, B), z3::implies(A, C));
 
-  //unaryFormulas(formula_1, A);
-  //unaryFormulas(formula_2, A);
+  unaryFormulas(formula_1, A);
+  unaryFormulas(formula_2, A);
   //binaryFormulas(formula_3, A, B);
-  threeAryFormulas(formula_4, A, B, C);
+  //threeAryFormulas(formula_4, A, B, C);
+  //threeAryFormulas(formula_5, A, B, C);
 
   return 0;
 }
