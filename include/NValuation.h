@@ -7,6 +7,7 @@
 #include <map>
 
 #define inSet(element, set) (set.find(element) != set.end())
+#define _DEBUG_NVALUATION 1
 
 class NValuation {
 

@@ -9,6 +9,9 @@ NValuation::NValuation(
   id_of_props({}),
   props(ctx)
 {
+#if _DEBUG_NVALUATION
+  std::cout << "Current num_values: " << num_values << std::endl;
+#endif
 }
 
 void NValuation::setEval(
